@@ -54,7 +54,7 @@ const links = [
   },
   {
     title: "WhatsApp",
-    url: "https://wa.me/6281234567890",
+    url: "https://wa.me/625872381791",
     icon: WhatsAppIcon,
     color: "text-green-500",
   },
@@ -96,16 +96,16 @@ export default function Home() {
             className="relative group cursor-pointer"
           >
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-purple-600 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-background shadow-2xl bg-muted">
+            <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-background shadow-2xl bg-muted">
               <Image
                 src="/fahrezi_white_logo.webp"
                 alt="Fahrezi Tech Logo"
                 fill
-                className="object-cover"
+                className="object-contain p-2.5"
                 priority
               />
             </div>
-            <div className="absolute bottom-0.5 right-0.5 w-3 h-3 bg-green-500 border-2 border-background rounded-full" title="Available for work"></div>
+            <div className="absolute bottom-1 right-1 w-3.5 h-3.5 bg-green-500 border-2 border-background rounded-full" title="Available for work"></div>
           </motion.div>
 
           <motion.div variants={itemVariants} className="space-y-2">
@@ -135,7 +135,7 @@ export default function Home() {
           variants={itemVariants}
           className="mt-12 text-center text-sm text-muted-foreground font-medium"
         >
-          <p>© {new Date().getFullYear()} Farezi. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Fahrezi. All rights reserved.</p>
         </motion.footer>
 
       </motion.div>
